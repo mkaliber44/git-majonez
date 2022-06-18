@@ -1,0 +1,55 @@
+   43  mkdir git-majonez
+   44  cd git-majonez/
+   45  git init
+   46  git touch main.cpp
+   47  toouch main.cpp
+   48  touch main.cpp
+   49  ls
+   50  git status
+   51  git add main.cpp
+   52  git status
+   53  git commit -m "initial commit"
+   54  git status
+   55  git add main.cpp
+   56  git status
+   57  git restore --staged main.cpp
+   58  git status
+   59  git restore main.cpp
+   60  git status
+   61  git log
+   62  git commit --amend
+   63  git log
+   64  git status
+   65  git add main.cpp
+   66  git commit -m "Farewell changed"
+   67  git remote add origin https://github.com/mkaliber44/git-majonez.git
+   68  git push -u origin master
+   69  git config --global credential.helper cache
+   70  git pull
+   71  ls
+   72  git status
+   73  git checkout -b cs
+   74  git log
+   75  git reset --hard HEAD^
+   76  git log
+   77  git status
+   78  git add main.cpp 
+   79  git commit -m "Greetings"
+   80  git push origin cs
+   81  git status
+   82  git checkout master
+   83  git merge cs
+   84  git status
+   85  git add main.cpp
+   86  git status
+   87  git commit
+   88  git log
+   89  history
+   90  history | tail -n 10
+   91  history | tail -n 45
+   92  history | tail -n 47
+   93  history | tail -n 50
+   94  history | tail -n 51
+   95  history | tail -n 52
+   96  history | tail -n 54
+   97  history | tail -n 55 > history.txt
